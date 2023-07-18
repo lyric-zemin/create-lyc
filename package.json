@@ -1,6 +1,6 @@
 {
   "name": "create-lyc",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.ts",
   "bin": {
     "create-lyc": "bin/cli.js"
