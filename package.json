@@ -8,7 +8,7 @@
   "scripts": {
     "build": "tsup",
     "test": "esno index.ts v2 demo",
-    "publish": "pnpm run build && npm publish"
+    "prepublishOnly": "pnpm build"
   },
   "author": "lyric-zemin",
   "dependencies": {
