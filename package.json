@@ -7,11 +7,12 @@
   },
   "scripts": {
     "build": "tsup",
-    "test": "esno index.ts ./demo"
+    "test": "esno index.ts v2 demo"
   },
   "author": "lyric-zemin",
   "dependencies": {
     "commander": "^11.0.0",
+    "consola": "^3.2.3",
     "degit": "^2.8.4"
   },
   "devDependencies": {
